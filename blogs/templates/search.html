@@ -1,0 +1,22 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Search</title>
+    <link rel="stylesheet" href="{% static 'css/search_style.css' %}">
+
+</head>
+<body>
+
+
+<form method="post">{% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="save btn btn-default">search</button>
+</form>
+
+
+
+</body>
+</html>
