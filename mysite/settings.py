@@ -34,7 +34,7 @@ DEBUG = False
 ALLOWED_HOSTS = ['demo-mysite.herokuapp.com']
 
 
-# Application definition
+# Application definition .
 
 INSTALLED_APPS = [
     'django.contrib.admin',
